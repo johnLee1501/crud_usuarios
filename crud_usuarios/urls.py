@@ -16,9 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from usuario.views import RegistroUsuario
+from usuario.views import RegistroUsuario, ListarUsuarios, ActualizarUsuario, EliminarUsuario
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', RegistroUsuario.as_view(), name='registrar'),
+    path('listar', ListarUsuarios.as_view(), name='listar'),
+    path('actualizar/<pk>', ActualizarUsuario.as_view(), name='actualizar'),
+    path('eliminar/<pk>', EliminarUsuario.as_view(), name='eliminar'),
 ]

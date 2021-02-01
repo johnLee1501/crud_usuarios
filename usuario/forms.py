@@ -13,5 +13,8 @@ class UsuarioForm(forms.ModelForm):
             "password": "Constraseña"
         }
         widgets = {
-            'password': forms.PasswordInput(attrs={'class': 'form-control'})
+            'username': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Usuario'}),
+            'first_name': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Nombre'}),
+            'email': forms.EmailInput(attrs={'class': 'form-control', 'placeholder': 'Email'}),
+            'password': forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Password'})
         }
