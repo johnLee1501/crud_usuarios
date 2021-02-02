@@ -77,7 +77,14 @@ Ingresa a localhost:8000 y podrás listar, registrar, actualizar, y eliminar usu
 * **John Vega**
 
 ## Screenshots
-![admin](https://user-images.githubusercontent.com/71096926/106147387-c8892180-6145-11eb-9a5a-6a2a9e231a76.jpg)
-![admin_cactus_model](https://user-images.githubusercontent.com/71096926/106147466-e191d280-6145-11eb-9d8d-8517f9d373c3.jpg)
-![swagger](https://user-images.githubusercontent.com/71096926/106147506-eeaec180-6145-11eb-9e34-01472e8275aa.jpg)
-![swagger_post](https://user-images.githubusercontent.com/71096926/106173552-0eec7980-6162-11eb-8709-0a01971266d6.png)
+Listar Usuarios
+![Listar Usuarios](https://user-images.githubusercontent.com/71096926/106542767-6c6e2680-64d2-11eb-99b1-6168cdd2cd25.jpg)
+
+Crear Usuario
+![Crear Usuario](https://user-images.githubusercontent.com/71096926/106542804-7ee86000-64d2-11eb-87f8-865d236a7355.jpg)
+
+Actualizar Usuario
+![Actualizar Usuario](https://user-images.githubusercontent.com/71096926/106542819-86a80480-64d2-11eb-8aa5-b332393f8d56.jpg)
+
+Eliminar Usuario
+![Eliminar Usuario](https://user-images.githubusercontent.com/71096926/106542826-8a3b8b80-64d2-11eb-8287-3615b660ca67.jpg)
