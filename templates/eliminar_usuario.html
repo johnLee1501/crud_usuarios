@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<br>
-<form method="post">
+    <br>
+    <form method="post">
         {% csrf_token %}
-        <h3>Are you sure to delete {{ form.first_name }}'s record?</h3>
-        <button class="btn btn-danger" type="submit">Delete</button>
-        <a class="btn btn-secondary" href="{% url 'listar' %}">Cancel</a>
-</form>
+        <h3>Está seguro que desea eliminar el usuario <span style="color:dodgerblue">{{ object|capfirst }}</span>?</h3>
+        <button class="btn btn-danger" type="submit">Eliminar</button>
+        <a class="btn btn-secondary" href="{% url 'listar' %}">Cancelar</a>
+    </form>
 {% endblock %}

@@ -20,8 +20,8 @@ from usuario.views import RegistroUsuario, ListarUsuarios, ActualizarUsuario, El
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', RegistroUsuario.as_view(), name='registrar'),
-    path('listar', ListarUsuarios.as_view(), name='listar'),
+    path('registrar', RegistroUsuario.as_view(), name='registrar'),
+    path('', ListarUsuarios.as_view(), name='listar'),
     path('actualizar/<pk>', ActualizarUsuario.as_view(), name='actualizar'),
     path('eliminar/<pk>', EliminarUsuario.as_view(), name='eliminar'),
 ]
